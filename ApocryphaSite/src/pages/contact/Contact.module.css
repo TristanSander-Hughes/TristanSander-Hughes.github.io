@@ -1,0 +1,30 @@
+.ContactForm {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Form .Button {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.ContactDetails {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 2em;
+}
+
+.ContactDetails span {
+    font-size: 40px;
+}
+
+.ContactDetails span.right {
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}

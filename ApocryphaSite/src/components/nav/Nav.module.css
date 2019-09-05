@@ -1,0 +1,31 @@
+.Nav {
+    margin: 0 auto;
+    display: flex;
+    height: 176px;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.HomeWidth {
+    margin: 0 0;
+}
+
+.Nav a {
+    padding: 25px;
+    text-decoration: none;
+    color: #F2F3F4;
+}
+
+.Logo {
+    height: 176px;
+    width: 176px;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+
+.Logo img {
+    height: 100%;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
